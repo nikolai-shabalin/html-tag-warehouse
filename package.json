@@ -1,0 +1,16 @@
+{
+  "name": "html-tag-warehouse",
+  "version": "1.0.0",
+  "description": "List of all html tags according to specification, with groups",
+  "main": "index.js",
+  "keywords": ["html", "tags", "html5"],
+  "author": {
+    "name": "Nikolai Shabalin",
+    "email": "dev.nikolai.shabalin@gmail.com"
+  },
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=18.12"
+  }
+}

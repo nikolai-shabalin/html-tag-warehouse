@@ -1,0 +1,23 @@
+export const html1 = [
+  'TITLE',
+  'NEXTID',
+  'A',
+  'ISINDEX',
+  'PLAINTEXT',
+  'LISTING',
+  'P',
+  'H1',
+  'H2',
+  'H3',
+  'H4',
+  'H5',
+  'H6',
+  'ADDRESS',
+  'HP1',
+  'DL',
+  'DT',
+  'UL',
+  'LI',
+  'MENU',
+  'DIR'
+]

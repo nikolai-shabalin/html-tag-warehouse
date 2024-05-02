@@ -1,0 +1,18 @@
+export const grouping = [
+  'p',
+  'hr',
+  'pre',
+  'blockquote',
+  'ol',
+  'ul',
+  'menu',
+  'li',
+  'dl',
+  'dt',
+  'dd',
+  'figure',
+  'figcaption',
+  'main',
+  'search',
+  'div',
+]

@@ -1,0 +1,16 @@
+export const forms =[
+  'form',
+  'label',
+  'input',
+  'button',
+  'select',
+  'datalist',
+  'optgroup',
+  'option',
+  'textarea',
+  'output',
+  'progress',
+  'meter',
+  'fieldset',
+  'legend',
+]
