@@ -16,6 +16,23 @@ import { deprecated } from "./deprecated.js";
 import { html4 } from "./html4.js";
 import { html1 } from "./html1.js";
 
+const isDocument = (tag) => document.includes(tag);
+const isMetadata = (tag) => metadata.includes(tag);
+const isSections = (tag) => sections.includes(tag);
+const isGrouping = (tag) => grouping.includes(tag);
+const isTexts = (tag) => texts.includes(tag);
+const isEmbedded = (tag) => embedded.includes(tag);
+const isTabular = (tag) => tabular.includes(tag);
+const isForms = (tag) => forms.includes(tag);
+const isInteractive = (tag) => interactive.includes(tag);
+const isScripting = (tag) => scripting.includes(tag);
+const isNoEndTags = (tag) => noEndTags.includes(tag);
+const isPaired = (tag) => paired.includes(tag);
+const isDeprecated = (tag) => deprecated.includes(tag);
+const isHtml4 = (tag) => html4.includes(tag);
+const isHtml1 = (tag) => html1.includes(tag);
+
+const isGroup = (tag, group) => group.includes(tag);
 
 export {
   all,
