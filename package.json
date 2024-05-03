@@ -8,6 +8,7 @@
     "name": "Nikolai Shabalin",
     "email": "dev.nikolai.shabalin@gmail.com"
   },
+  "homepage": "https://github.com/nikolai-shabalin/html-tag-warehouse",
   "license": "ISC",
   "type": "module",
   "engines": {
