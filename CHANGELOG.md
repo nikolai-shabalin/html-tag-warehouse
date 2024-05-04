@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0
+Add `--help` options to cli
+
+```shell
+
 ## 2.0.0
 Add cli
 
