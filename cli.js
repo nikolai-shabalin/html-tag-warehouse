@@ -3,6 +3,10 @@ import * as groups from './index.js';
 
 const args = process.argv.slice(2);
 const groupName = args[0] ? args[0].replace(/^--/, '') : '';
+const TEXT_COLORS = {
+  default: '\x1b[0m',
+  green: '\x1b[32m',
+};
 const DESCRIPTIONS = {
   'all': 'Display the All HTML5 tags',
   'document': 'Document tags',
@@ -24,12 +28,12 @@ const DESCRIPTIONS = {
 };
 
 const showHelp = () => {
-  console.log('Usage: html-tag-warehouse [--option]');
+  console.log('Usage: html-tag-warehouse', TEXT_COLORS.green, '--option');
   console.log('Options:');
   for (const key of Object.keys(DESCRIPTIONS)) {
-    console.log(`  --${key}: ${DESCRIPTIONS[key]}`);
+    console.log(TEXT_COLORS.green, `  --${key}:`, TEXT_COLORS.default, `${DESCRIPTIONS[key]}`);
   }
-  console.log('  --help: Display this help message');
+  console.log(TEXT_COLORS.green, '  --help:', TEXT_COLORS.default, 'Display this help message');
 };
 
 const searchTag = () => {
