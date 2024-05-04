@@ -1,4 +1,4 @@
-export const embedded = [
+export const embedded = new Set([
   'picture',
   'source',
   'img',
@@ -10,4 +10,4 @@ export const embedded = [
   'track',
   'map',
   'area',
-]
+]);

@@ -1,4 +1,4 @@
-export const html1 = [
+export const html1 = new Set([
   'TITLE',
   'NEXTID',
   'A',
@@ -20,4 +20,4 @@ export const html1 = [
   'LI',
   'MENU',
   'DIR'
-]
+]);

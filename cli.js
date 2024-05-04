@@ -38,7 +38,7 @@ const searchTag = () => {
     console.error('Please provide a tag name to search for.');
     return;
   }
-  const foundGroups = Object.entries(groups).filter(([group, tags]) => tags.includes(tagName)).map(([group]) => group);
+  const foundGroups = Object.entries(groups).filter(([, tags]) => tags.has(tagName)).map(([group]) => group);
   const message = foundGroups.length > 0 ? `Tag ${tagName} found in groups: ${foundGroups.join(', ')}` : `Tag ${tagName} not found.`;
   console.log(message);
 };

@@ -1,4 +1,4 @@
-export const html4 = [
+export const html4 = new Set([
   "a",
   "abbr",
   "acronym",
@@ -90,4 +90,4 @@ export const html4 = [
   "u",
   "ul",
   "var"
-]
+]);
