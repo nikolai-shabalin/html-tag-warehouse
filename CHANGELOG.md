@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.1
+Micro-optimization for all data files
+
+```shell
+
 ## 2.2.0
 Added the ability to search for a tag in groups
 
