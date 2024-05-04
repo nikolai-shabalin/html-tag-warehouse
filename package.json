@@ -1,6 +1,6 @@
 {
   "name": "html-tag-warehouse",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "List of all html tags according to specification, with groups",
   "main": "index.js",
   "bin": {
