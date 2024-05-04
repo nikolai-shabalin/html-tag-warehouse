@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import * as groups from "./index.js";
+import * as groups from './index.js';
 
 const args = process.argv.slice(2);
 const groupName = args[0] ? args[0].replace(/^--/, '') : '';
@@ -23,18 +23,44 @@ const DESCRIPTIONS = {
   'html1': 'All tags are from the first HTML specification',
 };
 
-if (groupName === 'help' || args.length === 0) {
+const showHelp = () => {
   console.log('Usage: html-tag-warehouse [--option]');
   console.log('Options:');
-  Object.keys(groups).forEach(key => {
+  for (const key of Object.keys(DESCRIPTIONS)) {
     console.log(`  --${key}: ${DESCRIPTIONS[key]}`);
-  });
+  }
   console.log('  --help: Display this help message');
-} else {
+};
+
+const searchTag = () => {
+  const tagName = args[1];
+  if (!tagName) {
+    console.error('Please provide a tag name to search for.');
+    return;
+  }
+  const foundGroups = Object.entries(groups).filter(([group, tags]) => tags.includes(tagName)).map(([group]) => group);
+  const message = foundGroups.length > 0 ? `Tag ${tagName} found in groups: ${foundGroups.join(', ')}` : `Tag ${tagName} not found.`;
+  console.log(message);
+};
+
+const handleGroup = () => {
   const group = groups[groupName];
   if (group) {
     console.log(group);
   } else {
-    console.log('Unknown command. Please use --help to see available options.');
+    console.error('Unknown command. Please use --help to see available options.');
+  }
+};
+
+if (args.length === 0 || groupName === 'help') {
+  showHelp();
+} else {
+  switch (groupName) {
+    case 'search':
+      searchTag();
+      break;
+    default:
+      handleGroup();
+      break;
   }
 }
