@@ -1,4 +1,10 @@
+<div align="center">
+    <img width="185" height="180" src="./assets/logo.webp" alt="logo linthtml-config-htmlacademy" />
+</div>
+
 # html-tag-warehouse
+
+> Is a JavaScript library that provides access to categories of HTML tags, including deprecated and unclosed tags, as well as tags from older HTML specifications. Includes CLI tools for browsing and searching tags.
 
 ## Install
 
