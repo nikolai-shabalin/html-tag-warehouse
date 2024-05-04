@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.0
+Добавили возможность поиска тега в группах
+
+```shell
+npx html-tag-warehouse --search tagName
+```
+
 ## 2.1.0
 Add `--help` options to cli
 
