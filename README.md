@@ -16,6 +16,18 @@ console.log(all); // ['html', 'head', ...]
 
 The following shows the possible values for import.
 
+### cli
+
+```shell
+npx html-tag-warehouse --all
+```
+
+Any group can be specified in place of `all`:
+- `deprecated`
+- `document`
+- `no-end`
+- etc...
+
 ### Document tags
 
 ```js
