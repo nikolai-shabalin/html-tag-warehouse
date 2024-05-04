@@ -18,6 +18,7 @@ The following shows the possible values for import.
 
 ### cli
 
+#### View all tags in a specific group
 ```shell
 npx html-tag-warehouse --all
 ```
@@ -27,6 +28,21 @@ Any group can be specified in place of `all`:
 - `document`
 - `no-end`
 - etc...
+
+#### Find the tag in all groups
+
+```shell
+npx html-tag-warehouse search a
+```
+
+Finds the `<a>` tag in all groups.
+
+#### Help
+
+```shell
+npx html-tag-warehouse --help
+```
+
 
 ### Document tags
 
