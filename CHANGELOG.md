@@ -1,5 +1,8 @@
 # Changelog
 
+## ## 2.2.2
+Revert micro-optimization
+
 ## 2.2.1
 Micro-optimization for all data files
 
