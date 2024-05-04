@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "List of all html tags according to specification, with groups",
   "main": "index.js",
+  "bin": {
+    "html-tag-warehouse": "./cli.js"
+  },
   "keywords": ["html", "tags", "html5"],
   "author": {
     "name": "Nikolai Shabalin",
