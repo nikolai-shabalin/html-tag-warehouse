@@ -46,7 +46,7 @@ const searchTag = () => {
 const handleGroup = () => {
   const group = groups[groupName];
   if (group) {
-    console.log(group);
+    console.table(group);
   } else {
     console.error('Unknown command. Please use --help to see available options.');
   }
