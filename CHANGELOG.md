@@ -1,6 +1,6 @@
 # Changelog
 
-## ## 2.2.2
+## 2.2.2
 Revert micro-optimization
 
 ## 2.2.1
