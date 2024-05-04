@@ -1,7 +1,7 @@
 # Changelog
 
 ## 2.2.0
-Добавили возможность поиска тега в группах
+Added the ability to search for a tag in groups
 
 ```shell
 npx html-tag-warehouse --search tagName
