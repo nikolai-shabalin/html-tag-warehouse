@@ -1,8 +1,8 @@
-export const metadata = new Set([
+export const metadata = [
   'head',
   'title',
   'base',
   'link',
   'meta',
   'style',
-]);
+]

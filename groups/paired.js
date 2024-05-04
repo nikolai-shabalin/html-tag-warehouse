@@ -1,4 +1,4 @@
-export const paired = new Set([
+export const paired = [
   'html',
 
   'head',
@@ -107,4 +107,4 @@ export const paired = new Set([
   'template',
   'slot',
   'canvas',
-]);
+]

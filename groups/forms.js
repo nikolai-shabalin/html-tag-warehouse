@@ -1,4 +1,4 @@
-export const forms = new Set([
+export const forms =[
   'form',
   'label',
   'input',
@@ -13,4 +13,4 @@ export const forms = new Set([
   'meter',
   'fieldset',
   'legend',
-]);
+]

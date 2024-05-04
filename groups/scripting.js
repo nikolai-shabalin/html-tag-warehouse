@@ -1,7 +1,7 @@
-export const scripting = new Set([
+export const scripting = [
   'script',
   'noscript',
   'template',
   'slot',
   'canvas',
-]);
+]

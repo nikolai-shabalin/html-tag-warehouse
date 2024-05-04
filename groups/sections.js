@@ -1,4 +1,4 @@
-export const sections = new Set([
+export const sections = [
   'body',
   'article',
   'section',
@@ -13,4 +13,4 @@ export const sections = new Set([
   'header',
   'footer',
   'address',
-]);
+];

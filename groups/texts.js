@@ -1,4 +1,4 @@
-export const texts = new Set([
+export const texts = [
   'a',
   'em',
   'strong',
@@ -28,4 +28,4 @@ export const texts = new Set([
   'span',
   'br',
   'wbr',
-]);
+]

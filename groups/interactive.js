@@ -1,5 +1,5 @@
-export const  interactive = new Set([
+export const  interactive = [
   'details',
   'summary',
   'dialog',
-]);
+]

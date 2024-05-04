@@ -1,4 +1,4 @@
-export const all = new Set([
+export const all = [
   'html',
 
   'head',
@@ -120,4 +120,4 @@ export const all = new Set([
   'template',
   'slot',
   'canvas',
-]);
+]

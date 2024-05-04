@@ -1,4 +1,4 @@
-export const deprecated = new Set([
+export const deprecated = [
   'acronym',
   'applet',
   'basefont',
@@ -21,4 +21,4 @@ export const deprecated = new Set([
   'strike',
   'tt',
   'xmp',
-]);
+]

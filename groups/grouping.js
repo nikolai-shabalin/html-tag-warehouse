@@ -1,4 +1,4 @@
-export const grouping = new Set([
+export const grouping = [
   'p',
   'hr',
   'pre',
@@ -15,4 +15,4 @@ export const grouping = new Set([
   'main',
   'search',
   'div',
-]);
+]

@@ -1,3 +1,3 @@
-export const document = new Set([
+export const document = [
   'html'
-]);
+];

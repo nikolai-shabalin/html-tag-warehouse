@@ -1,4 +1,4 @@
-export const edits = new Set([
+export const edits = [
   'ins',
   'del',
-]);
+]

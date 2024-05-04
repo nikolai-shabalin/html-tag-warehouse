@@ -1,4 +1,4 @@
-export const noEndTags = new Set([
+export const noEndTags = [
   "area",
   "base",
   "br",
@@ -12,4 +12,4 @@ export const noEndTags = new Set([
   "source",
   "track",
   "wbr",
-]);
+]

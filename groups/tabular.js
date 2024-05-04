@@ -1,4 +1,4 @@
-export const tabular = new Set([
+export const tabular = [
   'table',
   'caption',
   'colgroup',
@@ -9,4 +9,4 @@ export const tabular = new Set([
   'tr',
   'td',
   'th',
-]);
+]
