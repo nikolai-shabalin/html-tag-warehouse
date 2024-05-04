@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="185" height="180" src="./assets/logo.webp" alt="logo linthtml-config-htmlacademy" />
+    <img width="185" height="180" src="./assets/logo.webp" alt="logo html-tag-warehouse">
 </div>
 
 # html-tag-warehouse
