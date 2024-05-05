@@ -20,5 +20,8 @@
   "type": "module",
   "engines": {
     "node": ">=18.12"
+  },
+  "dependencies": {
+    "inquirer": "9.2.20"
   }
 }
