@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.3.0
+- Rename noEndTags to noEnd
+- Corrects the texts for the `--help` command
+- Rules the example for `--search`
+- Shortens README.md
+
 ## 2.2.2
 Revert micro-optimization
 
