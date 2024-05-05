@@ -23,7 +23,7 @@ console.log(all); // ['html', 'head', ...]
 ```
 
 ## Groups
-- `all`: все теги HTML5
+- `all`: all HTML5 tags
 - `document`: all document tags from HTML5
 - `metadata`: all document tags from HTML5
 - `sections`: all document tags from HTML5
