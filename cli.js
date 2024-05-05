@@ -29,11 +29,15 @@ const DESCRIPTIONS = {
 
 const showHelp = () => {
   console.log('Usage: html-tag-warehouse', TEXT_COLORS.green, '--option');
-  console.log('Options:');
+  console.log(TEXT_COLORS.default, 'Options:');
+  console.log('  group:');
   for (const key of Object.keys(DESCRIPTIONS)) {
-    console.log(TEXT_COLORS.green, `  --${key}:`, TEXT_COLORS.default, `${DESCRIPTIONS[key]}`);
+    console.log(TEXT_COLORS.green, `    --${key}:`, TEXT_COLORS.default, `${DESCRIPTIONS[key]}`);
   }
-  console.log(TEXT_COLORS.green, '  --help:', TEXT_COLORS.default, 'Display this help message');
+  console.log('  search:');
+  console.log(TEXT_COLORS.green, '    --search:', TEXT_COLORS.default, 'Search for a tag name in all groups. Provide the tag name as the next argument.');
+  console.log('  help:');
+  console.log(TEXT_COLORS.green, '    --help:', TEXT_COLORS.default, 'Display this help message');
 };
 
 const searchTag = () => {
