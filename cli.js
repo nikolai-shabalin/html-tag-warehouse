@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import * as groups from './index.js';
+import inquirer from 'inquirer';
 
 const args = process.argv.slice(2);
 const groupName = args[0] ? args[0].replace(/^--/, '') : '';
@@ -51,19 +52,34 @@ const searchTag = () => {
   console.log(message);
 };
 
-const handleGroup = () => {
-  const group = groups[groupName];
-  if (group) {
-    console.table(group);
+const handleGroup = async () => {
+  if (groupName) {
+    const group = groups[groupName];
+    if (group) {
+      console.table(group);
+    } else {
+      console.error('Unknown command. Please use --help to see available options.');
+    }
   } else {
-    console.error('Unknown command. Please use --help to see available options.');
+    const { chosenGroup } = await inquirer.prompt([
+      {
+        type: 'list',
+        name: 'chosenGroup',
+        message: 'Choose a group:',
+        choices: Object.keys(groups),
+      },
+    ]);
+    console.table(groups[chosenGroup]);
   }
 };
 
-if (args.length === 0 || groupName === 'help') {
-  showHelp();
+if (args.length === 0) {
+  handleGroup();
 } else {
   switch (groupName) {
+    case 'help':
+      showHelp();
+      break;
     case 'search':
       searchTag();
       break;
