@@ -38,10 +38,11 @@ Any group can be specified in place of `all`:
 #### Find the tag in all groups
 
 ```shell
-npx html-tag-warehouse search a
+npx html-tag-warehouse --search img
+Tag img found in groups: all, embedded, html4, noEndTags
 ```
 
-Finds the `<a>` tag in all groups.
+Finds the `<img>` tag in all groups.
 
 #### Help
 
