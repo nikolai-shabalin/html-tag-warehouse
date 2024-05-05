@@ -10,7 +10,7 @@ import { tabular } from "./groups/tabular.js";
 import { forms } from "./groups/forms.js";
 import { interactive } from "./groups/interactive.js";
 import { scripting } from "./groups/scripting.js";
-import { noEndTags } from "./groups/no-end.js";
+import { noEnd } from "./groups/no-end.js";
 import { paired } from "./groups/paired.js";
 import { deprecated } from "./groups/deprecated.js";
 import { html4 } from "./groups/html4.js";
@@ -31,7 +31,7 @@ export {
   interactive,
   scripting,
   paired,
-  noEndTags,
+  noEnd,
   deprecated,
   html4,
   html1

@@ -20,7 +20,7 @@ const DESCRIPTIONS = {
   'forms': 'Form tags',
   'interactive': 'Interactive tags',
   'scripting': 'Scripting tags',
-  'noEndTags': 'No-end or self-closing tags',
+  'noEnd': 'No-end or self-closing tags',
   'paired': 'Paired tags',
   'deprecated': 'Tags that are not included in the HTML5 specification, but were in HTML4',
   'html4': 'All tags are from the HTML4 specification',

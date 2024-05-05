@@ -1,4 +1,4 @@
-export const noEndTags = [
+export const noEnd = [
   "area",
   "base",
   "br",
