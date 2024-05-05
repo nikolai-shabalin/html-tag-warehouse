@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.4.0
+Adds interactive group selection
+
 ## 2.3.0
 - Rename noEndTags to noEnd
 - Corrects the texts for the `--help` command
