@@ -44,6 +44,13 @@ console.log(all); // ['html', 'head', ...]
 
 ## cli
 
+### Interactive group selection
+```shell
+npx html-tag-warehouse
+```
+
+After entering the command, the terminal will prompt you to select a group
+
 ### View all tags in a specific group
 ```shell
 npx html-tag-warehouse --all
@@ -59,10 +66,13 @@ Any group can be specified in place of `all`:
 
 ```shell
 npx html-tag-warehouse --search img
-Tag img found in groups: all, embedded, html4, noEndTags
 ```
 
 Finds the `<img>` tag in all groups.
+
+```shell
+Tag img found in groups: all, embedded, html4, noEndTags
+```
 
 ### Help
 
