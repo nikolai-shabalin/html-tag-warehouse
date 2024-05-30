@@ -74,6 +74,12 @@ Finds the `<img>` tag in all groups.
 Tag img found in groups: all, embedded, html4, noEndTags
 ```
 
+You can use the short alias `-s` for `--search`.
+
+```shell
+npx html-tag-warehouse -s img
+```
+
 ### Help
 
 ```shell
