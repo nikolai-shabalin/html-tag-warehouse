@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.5.0
+Adds the alias `-s' for `--search`
+
+```shell
+npx html-tag-warehouse -s tagName
+```
+
 ## 2.4.0
 Adds interactive group selection
 
