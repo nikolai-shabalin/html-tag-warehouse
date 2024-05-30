@@ -3,7 +3,7 @@ import * as groups from './index.js';
 import inquirer from 'inquirer';
 
 const args = process.argv.slice(2);
-const groupName = args[0] ? args[0].replace(/^--/, '') : '';
+const groupName = args[0] ? args[0].replace(/^-+/, '') : '';
 const TEXT_COLORS = {
   default: '\x1b[0m',
   green: '\x1b[32m',
@@ -36,7 +36,7 @@ const showHelp = () => {
     console.log(TEXT_COLORS.green, `    --${key}:`, TEXT_COLORS.default, `${DESCRIPTIONS[key]}`);
   }
   console.log('  search:');
-  console.log(TEXT_COLORS.green, '    --search:', TEXT_COLORS.default, 'Search for a tag name in all groups. Provide the tag name as the next argument.');
+  console.log(TEXT_COLORS.green, '    [--search <tagName> | -s <tagName>:', TEXT_COLORS.default, 'Search for a tag name in all groups. Provide the tag name as the next argument.');
   console.log('  help:');
   console.log(TEXT_COLORS.green, '    --help:', TEXT_COLORS.default, 'Display this help message');
 };
@@ -81,6 +81,7 @@ if (args.length === 0) {
       showHelp();
       break;
     case 'search':
+    case 's':
       searchTag();
       break;
     default:
