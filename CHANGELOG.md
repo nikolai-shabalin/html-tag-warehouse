@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.5.1
+Update inquirer 9.2.20 to 12.0.1
+
 ## 2.5.0
 Adds the alias `-s' for `--search`
 
