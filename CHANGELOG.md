@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.6.0
+Moves inquirer to dependencies
+
 ## 2.5.1
 Update inquirer 9.2.20 to 12.0.1
 
